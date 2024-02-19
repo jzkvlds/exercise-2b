@@ -1,6 +1,15 @@
 usethis::use_github(protocol="https")
-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
+
+GITHUB_PAT=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
+
 
 usethis::edit_r_environ()
-Sys.getenv("GITHUB_PAT")
+
+Sys.getenv("GITHUB_PAT") 
+
+
 usethis::use_github(protocol="https")
+ 
+usethis::use_github(protocol="https")
+0
+12
